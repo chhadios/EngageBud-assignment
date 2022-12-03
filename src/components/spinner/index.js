@@ -37,7 +37,7 @@ const Wheel = () => {
         setTovalue(angle[V]+4320);
         setStart(true);
         play();
-        setTimeout(function(){navigate(`/reward/${rewards[V]}`)}, 5400);
+        setTimeout(function(){navigate(`/reward/${rewards[V]}`)}, 5380);
 
     }
     return (
