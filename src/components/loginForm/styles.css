@@ -1,0 +1,96 @@
+.form-container{
+   width:350px;
+   height: 450px;
+   position: absolute;
+   bottom: 16%;
+   left: 58%;
+}
+.form-heading{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.textfield{
+    background-color: white;
+    width: 90%;
+    height: 55px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.checkbox-container{
+    border: 2px solid black;
+    width: 90%;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.form-button{
+    margin-top: 15px;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    align-items: center;
+    border: 0px;
+    border-radius: 5px;
+    width: 90%;
+    height:55px;
+    background-color: #146531 ;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.form-button:hover{
+    border: 2px solid black;
+}
+.form-disclamer{
+    font-family: Noto Sans;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.form-close{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    float: right;
+    position: relative;
+    top: -10px;
+    left: -8%;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 1100px) {
+    .form-container{
+        width: 55%;
+        left: 40%;
+    }
+    .form-heading{
+        font-size: 22px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .form-container{
+        width: 80%;
+        left: 10%;
+    }
+
+  }
